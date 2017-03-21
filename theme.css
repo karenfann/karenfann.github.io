@@ -180,7 +180,7 @@ body
 	letter-spacing: 2px;
 }
 
-#courses p
+.description p
 {
 	text-align: center;
 	font-size: 1.2em;
@@ -193,7 +193,7 @@ body
 	font-weight: 200;
 }
 
-#courses .description img
+.description img
 {
 	float: center;
 	padding: 5px;
@@ -203,10 +203,37 @@ body
 	margin-bottom: 30px;
 }
 
+#projects
+{
+	padding: 50px;
+}
+
+#projects p
+{
+	font-size: 1.2em;
+}
+
+#projects .description
+{
+	padding: 0px 80px;
+	text-align: left;
+}
+
+#projects #text
+{
+	font-size: 1.1em;
+	text-align: left;
+}
+
 #contact
 {
 	background-size: cover;
 	background-image: url("background.jpg");
+}
+
+#resume
+{
+	background-color: white;
 }
 
 #contact .heading
