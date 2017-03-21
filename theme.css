@@ -193,7 +193,17 @@ body
 	font-weight: 200;
 }
 
-.description img
+#courses .description img
+{
+	float: center;
+	padding: 5px;
+	max-width: 120px;
+	border: 1px solid black;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+#projects .description img
 {
 	float: center;
 	padding: 5px;
