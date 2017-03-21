@@ -1,0 +1,203 @@
+body 
+{
+	display: block;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.2em;
+}
+
+#initial
+{
+	background-image: url("background.jpg");
+	background-size: cover;
+	height: 100vh;
+	justify-content: center;
+	position: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.signature
+{
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+.signature-text
+{
+	letter-spacing: 3px;
+}
+
+#about
+{
+	padding: 50px; 
+}
+
+#about p
+{
+	font-size: 16px;
+	font-weight: 200;
+}
+
+#about span
+{
+	font-weight: 400;
+}
+
+#about-portrait
+{
+	padding-right: 50px;
+}
+
+#skills
+{
+	padding: 50px;
+}
+
+#skills .heading {
+	text-align: center;
+}
+
+#skills .title
+{
+	margin-bottom: 20px;
+}
+
+#skills .skills-list
+{
+	padding-bottom: 30px;
+}
+
+#skills .skill-title
+{
+	font-size: 1.2em;
+	font-weight: 200;
+}
+
+#skills .rating
+{
+	float: right;
+	position: relative;
+	display: inline-block;
+}
+
+#skills .empty
+{
+	color: grey;
+}
+
+#experience
+{
+	background-color: #fff;
+	padding: 50px;
+}
+
+#experience .heading {
+	text-align: center;
+}
+
+#experience .container
+{
+	margin: 15px;
+}
+
+#experience p
+{
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.title
+{
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+#experience .container img
+{
+	float: right;
+	margin-right: 50px;
+	width: 120px;
+}
+
+#experience .row
+{
+	padding: 10px;
+}
+
+#education
+{
+	padding: 50px 70px;
+	background-color: #f9f9f9;
+}
+
+#education p
+{
+	font-weight: 200;
+	font-size: 1.1em;
+}
+
+#courses
+{
+	padding: 50px;
+}
+
+.heading
+{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 300;
+	padding-bottom: 20px;
+	letter-spacing: 1px;
+	letter-spacing: 2px;
+}
+
+#courses p
+{
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+.description 
+{
+	padding-bottom: 40px;
+	font-weight: 200;
+}
+
+#courses .description img
+{
+	float: center;
+	padding: 5px;
+	max-width: 120px;
+	border: 1px solid black;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+#contact
+{
+	background-size: cover;
+	background-image: url("background.jpg");
+}
+
+#contact .heading
+{
+	font-weight: 300;
+}
+
+.contact-icons
+{
+	align-items: center;
+	text-align: center;
+}
+
+.contact-icons img
+{
+	width: 30px;
+	margin: 0px 10px;
+}
+
+.contact-icons img:hover
+{
+	opacity: 0.6;
+}
