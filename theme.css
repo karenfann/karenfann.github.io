@@ -130,6 +130,11 @@ body
 	margin: 15px;
 }
 
+#experience .exp-row
+{
+	padding-bottom: 30px;
+}
+
 #experience p
 {
 	font-size: 16px;
