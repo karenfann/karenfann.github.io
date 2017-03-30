@@ -75,11 +75,17 @@ body
 #about-portrait
 {
 	text-align: center;
+	padding-bottom: 20px;
 }
 
 #skills
 {
 	padding: 50px;
+}
+
+#skills ul
+{
+	padding: 0;
 }
 
 #skills .heading {
@@ -108,12 +114,6 @@ body
 	position: relative;
 	display: inline-block;
 }
-
-#skills .empty
-{
-	color: grey;
-}
-
 #experience
 {
 	background-color: #fff;
@@ -124,9 +124,9 @@ body
 	text-align: center;
 }
 
-#experience .container
+#experience .exp-description
 {
-	margin: 15px;
+	padding: 0;
 }
 
 #experience .exp-row
@@ -160,7 +160,7 @@ body
 
 #education
 {
-	padding: 50px 70px;
+	padding: 50px;
 	background-color: #f9f9f9;
 }
 
@@ -230,7 +230,6 @@ body
 
 #projects .description
 {
-	padding: 30px;
 	text-align: left;
 }
 
