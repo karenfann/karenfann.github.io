@@ -9,6 +9,7 @@ body
 {
 	background-image: url("Images/background.jpg");
 	background-size: cover;
+	background-attachment: fixed;
 	height: 100vh;
 	justify-content: center;
 	position: flex;
@@ -254,6 +255,7 @@ body
 {
 	background-size: cover;
 	background-image: url("Images/background.jpg");
+	background-attachment: fixed;
 }
 
 #resume
