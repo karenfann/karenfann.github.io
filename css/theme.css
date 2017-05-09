@@ -7,7 +7,7 @@ body
 
 #initial
 {
-	background-image: url("Images/background.jpg");
+	background-image: url("../Images/background.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100vh;
@@ -260,7 +260,7 @@ body
 #contact
 {
 	background-size: cover;
-	background-image: url("Images/background.jpg");
+	background-image: url("../Images/background.jpg");
 	background-attachment: fixed;
 }
 
