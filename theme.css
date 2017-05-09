@@ -17,6 +17,12 @@ body
 	align-items: center;
 }
 
+@media only screen and (max-device-width: 1024px) {
+    #initial {
+        background-attachment: scroll;
+    }
+}
+
 .signature
 {
 	width: 300px;
