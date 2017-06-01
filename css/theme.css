@@ -1,4 +1,4 @@
-body 
+body
 {
 	display: block;
 	font-family: Helvetica, Sans-Serif;
@@ -21,6 +21,10 @@ body
     #initial {
         background-attachment: scroll;
     }
+
+	#contact {
+		background-attachment: scroll;
+	}
 }
 
 .signature
@@ -65,7 +69,7 @@ body
 
 #about
 {
-	padding: 50px; 
+	padding: 50px;
 }
 
 .animate {
@@ -210,7 +214,7 @@ body
 	font-weight: 300;
 }
 
-.description 
+.description
 {
 	padding-bottom: 40px;
 	font-weight: 200;
