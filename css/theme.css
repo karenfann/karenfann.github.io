@@ -5,6 +5,25 @@ body
 	font-size: 1.2em;
 }
 
+body a {
+	cursor: pointer;
+	color: black;
+}
+
+body a:link {
+	color: black;
+}
+
+body a:hover {
+	text-decoration: none;
+	color: #b0b0b0;
+}
+
+body a:focus {
+	text-decoration: none;
+	color: black;
+}
+
 #initial
 {
 	background-image: url("../Images/background.jpg");
