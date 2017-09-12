@@ -41,5 +41,6 @@
   .contact .page-section-inner {
     padding: 140px 30px 0px 30px;
     min-height: 70vh;
+    font-weight: 300;
   }
 }

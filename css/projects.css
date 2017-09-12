@@ -162,12 +162,16 @@
   }
 
   .project {
-    max-width: 44%;
+    max-width: 100%;
     margin: 20px 10px 20px 10px;
   }
 
   .project-slide {
     padding: 10px;
+  }
+
+  .project-slide-content {
+    max-width: 90%;
   }
 
   .project-description {
@@ -247,6 +251,10 @@
 
   #bugs-video {
     padding-top: 80px;
+  }
+
+  #chatcat-image img {
+    max-width: 100%;
   }
 
   #electric-image img {
