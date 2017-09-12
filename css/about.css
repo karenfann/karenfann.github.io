@@ -344,4 +344,9 @@
   .projects .type-wrap {
     height: 70px;
   }
+
+  .project-item {
+    width: 50vw;
+    margin-bottom: -6px;
+  }
 }

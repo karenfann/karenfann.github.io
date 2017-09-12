@@ -127,3 +127,131 @@
 .flickity-slider .flickity-prev-next-button:hover {
   opacity: 0.5;
 }
+
+.swipe {
+  display: none;
+}
+
+#bruinnav-image img {
+  max-width: 50%;
+}
+
+#bugs-video video {
+  max-width: 60%;
+  margin: auto;
+}
+
+#chatcat-image img {
+  max-width: 70%;
+}
+
+#electric-image img {
+  max-width: 50%;
+  opacity: 0.8;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 500px) {
+  .project-title {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .project-wrap {
+    padding: 80px 12px 50px 12px;
+  }
+
+  .project {
+    max-width: 44%;
+    margin: 20px 10px 20px 10px;
+  }
+
+  .project-slide {
+    padding: 10px;
+  }
+
+  .project-description {
+    padding-top: 70px;
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .has-image {
+    padding-top: 40%;
+  }
+
+  .has-image img {
+    max-width: 100%;
+  }
+
+  .project-slide-caption {
+    font-size: 12px;
+    padding: 0 40px;
+    line-height: 20px;
+  }
+
+  .flickity-slider .flickity-prev-next-button {
+    display: none;
+  }
+
+  .swipe {
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 30px;
+    opacity: 0.7;
+    -moz-animation: slide 1s linear infinite;
+     -webkit-animation: slide 1s linear infinite;
+     animation: slide 1s linear infinite;
+  }
+
+  @-moz-keyframes slide {
+   0%   { -moz-transform: translateX(0%); }
+   50%   { -moz-transform: translateX(5%); }
+   100% { -moz-transform: translateX(0%); }
+  }
+  @-webkit-keyframes slide {
+   0%   { -webkit-transform: translateX(0%); }
+   50%   { -webkit-transform: translateX(5%); }
+   100% { -webkit-transform: translateX(0%); }
+  }
+  @keyframes slide {
+   0%   {
+   -moz-transform: translateX(0%); /* Firefox bug fix */
+   -webkit-transform: translateX(0%); /* Firefox bug fix */
+   transform: translateX(0%);
+   }
+   50%   {
+   -moz-transform: translateX(5%); /* Firefox bug fix */
+   -webkit-transform: translateX(5%); /* Firefox bug fix */
+   transform: translateX(5%);
+   }
+   100% {
+   -moz-transform: translateX(0%); /* Firefox bug fix */
+   -webkit-transform: translateX(0%); /* Firefox bug fix */
+   transform: translateX(0%);
+   }
+  }
+
+  #bruinnav-image {
+    padding-top: 80px;
+  }
+
+  #bruinnav-image img {
+    max-width: 100%;
+  }
+
+  #bugs-video video {
+    max-width: 100%;
+  }
+
+  #bugs-video {
+    padding-top: 80px;
+  }
+
+  #electric-image img {
+    margin-top: 0;
+    margin-bottom: 20px;
+    max-width: 80%;
+  }
+}
