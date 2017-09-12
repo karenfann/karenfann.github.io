@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type='text/javascript' src="../js/header.js"></script>
+  <title>Karen Fann | Contact</title>
+</head>
+
+<body>
+  <div id="header">
+    <header class="header is-inverted">
+      <div class="header-strip"></div>
+      <div class="header-wrap">
+        <button class="header-button section-button contact-button"><img src="../img/email.svg" alt=""></button>
+        <button class="header-button nav-button">•••</button>
+        <button class="header-button close-button" style="display: none;">✕</button>
+        <span class="brand"><a href="./index.html">KAREN FANN</a></span>
+      </div>
+    </header>
+    <div class="menu-layer" style="display: none">
+      <div class="nav-panel">
+        <div class="nav-wrap">
+          <nav class="nav">
+            <div class="nav-item"><a href="./index.html">/ ABOUT</a></div>
+            <div class="nav-item"><a href="./education.html">/ EDUCATION</a></div>
+            <div class="nav-item"><a href="./experience.html">/ EXPERIENCE</a></div>
+            <div class="nav-item"><a href="./projects.html">/ PROJECTS</a></div>
+            <div class="nav-item"><a href="../resume.pdf">/ RESUME</a></div>
+            <div class="nav-item"><a href="./contact.html">/ CONTACT</a></div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    $('.nav-button').on("click", function() {
+      $('.header').removeClass('is-inverted')
+    })
+    $('.close-button').on("click", function() {
+      $('.header').addClass('is-inverted');
+    })
+  </script>
+  <section class="page-section contact">
+    <div class="page-section-inner">
+      <div class="page-section-text">
+        If you would like to work with me or collaborate on cool projects,
+        <br /> contact me at <a href="mailto:kfann285@gmail.com">kfann285@gmail.com</a>.
+        <br /><br />You can keep up to date with me on <a href="https://www.linkedin.com/in/karen-fann">LinkedIn</a>, <a href="https://www.facebook.com/karen.fann.7">Facebook</a>, <a href="https://www.instagram.com/karenlfann">Instagram</a> and <a href="https://www.vsco.com/klfann">VSCO</a>.
+      </div>
+    </div>
+  </section>
+  <section>
+    <footer>
+      <div class="footer-wrap">
+        <div class="footer-brand">
+          KF
+        </div>
+      </div>
+    </footer>
+  </section>
+</body>
+
+</html>

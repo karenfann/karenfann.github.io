@@ -1,0 +1,129 @@
+.project-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 80px 180px;
+}
+
+.project {
+  max-width: 39%;
+  margin: 50px;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+.project-title {
+  font-size: 26px;
+  text-transform: uppercase;
+  padding-top: 30px;
+  text-align: center;
+  letter-spacing: 1.3px;
+}
+
+.project a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.9;
+  transition: opacity .5s;
+}
+
+.project a:hover {
+  opacity: 0.5;
+  color: grey;
+}
+
+.project-slider-wrap {
+  padding-top: 15vh;
+  height: 85vh;
+  position: relative;
+}
+
+.project-slide-counter {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  display: none;
+}
+
+.project-slide-counter .show {
+  display: block;
+}
+
+.flickity-viewport {
+  height: 100%;
+}
+
+.flickity-slider {
+  height: 100%;
+  width: 100%;
+}
+
+.project-slide {
+  padding: 50px 150px 100px 150px;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  box-sizing: border-box;
+}
+
+.project-slide-content {
+  max-width: 80%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.project-description {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 80px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.project-description .project-title {
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+.project-slide-content {
+  text-align: center;
+}
+
+.project-slide-content img {
+  width: 100%;
+  margin: auto;
+}
+
+.project-slide-caption {
+  text-align: center;
+  font-size: 14px;
+  color: grey;
+  line-height: 40px;
+  letter-spacing: 1.1px;
+}
+
+.flickity-slider .flickity-prev-next-button {
+  width: 30px;
+  height: 30px;
+  transition: transform 1s;
+}
+
+.flickity-slider .flickity-prev-next-button:focus,
+.flickity-slider .flickity-prev-next-button:active {
+  background: transparent;
+}
+
+.flickity-slider .flickity-prev-next-button:disabled {
+  display: none;
+}
+
+.flickity-slider .flickity-prev-next-button:hover {
+  opacity: 0.5;
+}

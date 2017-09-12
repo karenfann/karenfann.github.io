@@ -1,0 +1,50 @@
+<svg width="2377" height="1440" viewBox="0 0 2377 1440" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Frame</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(971 -868)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -971 868L 1406 868L 1406 2308L -971 2308L -971 868Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Frame" clip-path="url(#clip-0)">
+<path d="M -971 868L 1406 868L 1406 2308L -971 2308L -971 868Z" fill="#90DFAA"/>
+<g id="map">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-149 1511.08)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(71.8789 1511.08)" fill="#E6E9EE"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(261.146 1511.08)" fill="#FFFFFF"/>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(266.448 1550.46)" fill="#84DBFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(-88.8344 1555.56)" fill="#84DBFF"/>
+</g>
+</g>
+<g id="Vector">
+<use xlink:href="#path5_fill" transform="translate(79.0172 1550.46)" fill="#54C0EB"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path6_fill" transform="translate(41.4902 1264)" fill="#F1543F"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path7_fill" transform="translate(123.275 1332.35)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 220.879 400.919L 3.11205e-06 323.796L 151.536 0L 277.373 22.8514L 220.879 400.919Z"/>
+<path id="path1_fill" d="M -6.22409e-06 400.919L 233.32 323.388L 189.267 0L 56.4944 22.8514L -6.22409e-06 400.919Z"/>
+<path id="path2_fill" d="M 322.854 400.919L 44.0534 323.388L 0 0L 139.502 22.8514L 322.854 400.919Z"/>
+<path id="path3_fill" d="M 95.653 17.5466L 1.24482e-05 6.22651e-06L 31.0005 227.902L 209.866 275.849L 95.653 17.5466Z"/>
+<path id="path4_fill" d="M 112.173 6.22651e-06L 3.11205e-06 245.652L 167.852 297.68L 210.681 17.7506L 112.173 6.22651e-06Z"/>
+<path id="path5_fill" d="M 187.431 6.22651e-06L 42.8297 22.8514L -6.22409e-06 302.781L 218.432 227.902L 187.431 6.22651e-06Z"/>
+<path id="path6_fill" d="M 332.44 166.285C 332.44 258.098 166.22 458.66 166.22 458.66C 166.22 458.66 6.22409e-06 258.098 6.22409e-06 166.285C 6.22409e-06 74.471 74.4421 3.11325e-06 166.22 3.11325e-06C 257.998 3.11325e-06 332.44 74.267 332.44 166.285Z"/>
+<path id="path7_fill" d="M 84.2318 168.529C 130.752 168.529 168.464 130.802 168.464 84.2645C 168.464 37.7265 130.752 3.11325e-06 84.2318 3.11325e-06C 37.7118 3.11325e-06 -1.24482e-05 37.7265 -1.24482e-05 84.2645C -1.24482e-05 130.802 37.7118 168.529 84.2318 168.529Z"/>
+</defs>
+</svg>

@@ -1,0 +1,347 @@
+.page-section-inner {
+  min-height: 100vh;
+  padding: 200px 100px 0px 100px;
+  position: relative;
+}
+
+.about .page-section-text {
+  padding: 200px 20px 20px 0;
+}
+
+.page-section-text {
+  max-width: 600px;
+}
+
+.skills .type-wrap,
+.career .type-wrap {
+  min-height: 100px;
+}
+
+.about .page-section-image {
+  background-image: url("../img/portrait-orange.jpg");
+  background-size: cover;
+  opacity: 0.6;
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  z-index: -1;
+  top: 12%;
+  right: 10%;
+}
+
+.skills {
+  font-weight: 100;
+}
+
+.skill-title {
+  font-size: 50px;
+  letter-spacing: 10px;
+  line-height: 80px;
+}
+
+.career .page-section-text {
+  padding: 0 0 70px 0;
+}
+
+.skill-levels-wrap {
+  position: absolute;
+  right: 0;
+  bottom: 30%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill {
+  float: right;
+  align-self: flex-end
+}
+
+.skill-levels-wrap p {
+  margin-bottom: 0;
+}
+
+.skill-level {
+  height: 8px;
+  background-color: white;
+  float: right;
+  width: 100%;
+}
+
+.five {
+  width: 500px;
+}
+
+.four {
+  width: 400px;
+}
+
+.three {
+  width: 300px;
+}
+
+#cpp, #html, #css, #mac {
+  width: 500px;
+}
+
+#javascript, #node, #jquery, #git {
+  width: 400px;
+}
+
+#bootstrap, #xcode {
+  width: 300px;
+}
+
+.career {
+  overflow-x: hidden;
+}
+
+.career .page-section-text {
+  width: 100%;
+  position: relative;
+  clear: both;
+}
+
+.career .page-section-inner {
+  min-height: 80vh;
+}
+
+.company {
+  margin: 40px 70px;
+  line-height: 50px;
+  width: 8.33%;
+  text-align: center;
+}
+
+.company-marquee {
+  margin-top: 100px;
+  position: absolute;
+  width: 100%;
+}
+
+.company-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 200%;
+  -moz-animation: marquee 20s linear infinite;
+   -webkit-animation: marquee 20s linear infinite;
+   animation: marquee 20s linear infinite;
+}
+
+@-moz-keyframes marquee {
+ 0%   { -moz-transform: translateX(0%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes marquee {
+ 0%   { -webkit-transform: translateX(0%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes marquee {
+ 0%   {
+ -moz-transform: translateX(0%); /* Firefox bug fix */
+ -webkit-transform: translateX(0%); /* Firefox bug fix */
+ transform: translateX(0%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
+}
+
+.bruinmeet img {
+  width: 230px;
+  opacity: 0.3;
+}
+
+.responsetwo img {
+  width: 200px;
+  opacity: 0.3;
+}
+
+.dfa img {
+  opacity: 0.6;
+  width: 270px;
+}
+
+.devx img {
+  opacity: 0.4;
+  width: 120px;
+}
+
+.tcs img {
+  opacity: 0.7;
+  width: 100px;
+}
+
+.ieee img {
+  opacity: 0.4;
+  width: 180px;
+}
+
+.company a {
+  transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
+}
+
+.company a:hover {
+  opacity: 0.5;
+  cursor: pointer
+}
+
+.projects .page-section-inner {
+  min-height: 100%;
+  padding: 160px 100px;
+}
+
+.projects-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  width: 33.33vw;
+  height: auto;
+  margin-bottom: -4px;
+  opacity: 0.9;
+}
+
+.project-item img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 500px) {
+  .page-section-inner {
+    padding: 100px 30px 0px 30px;
+  }
+
+  .about .page-section-image {
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    right: 10%;
+    top: 20%;
+  }
+
+  .skills .page-section-inner {
+    padding-bottom: 100px;
+  }
+
+  .skill-title-wrap {
+    padding-top: 240px;
+  }
+
+  .skill-title {
+    font-size: 30px;
+    letter-spacing: 1.3px;
+    line-height: 50px;
+  }
+
+  .skill-levels-wrap {
+    top: 25%;
+  }
+
+  .skill {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .skill p {
+    margin-top: 15px;
+  }
+
+  .skill-level {
+    height: 8px;
+  }
+
+  .five {
+    width: 300px;
+  }
+
+  .four {
+    width: 250px;
+  }
+
+  .three {
+    width: 200px;
+  }
+
+  .career .page-section-inner {
+    min-height: 70vh;
+  }
+
+  .company-wrap {
+    -moz-animation: marquee 10s linear infinite;
+     -webkit-animation: marquee 10s linear infinite;
+     animation: marquee 10s linear infinite;
+  }
+
+  .company {
+    margin: 40px 20px;
+    width: 200px;
+    line-height: 54px;
+  }
+
+  .bruinmeet img {
+    width: 180px;
+  }
+
+  .responsetwo img {
+    width: 160px;
+  }
+
+  .dfa {
+    width: 300px;
+  }
+
+  .devx {
+    min-width: 90px;
+  }
+
+  .devx img {
+    width: 80px;
+  }
+
+  .tcs {
+    margin-top: 30px;
+  }
+
+  .tcs img {
+    width: 80px;
+  }
+
+  .ieee img {
+    width: 100px;
+  }
+
+  @-moz-keyframes marquee {
+   0%   { -moz-transform: translateX(0%); }
+   100% { -moz-transform: translateX(-200%); }
+  }
+  @-webkit-keyframes marquee {
+   0%   { -webkit-transform: translateX(0%); }
+   100% { -webkit-transform: translateX(-200%); }
+  }
+  @keyframes marquee {
+   0%   {
+   -moz-transform: translateX(0%); /* Firefox bug fix */
+   -webkit-transform: translateX(0%); /* Firefox bug fix */
+   transform: translateX(0%);
+   }
+   100% {
+   -moz-transform: translateX(-200%); /* Firefox bug fix */
+   -webkit-transform: translateX(-200%); /* Firefox bug fix */
+   transform: translateX(-200%);
+   }
+  }
+
+  .projects .page-section-inner {
+    padding: 100px 30px;
+  }
+
+  .projects .type-wrap {
+    height: 70px;
+  }
+}
