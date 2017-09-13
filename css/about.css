@@ -349,4 +349,8 @@
     width: 50vw;
     margin-bottom: -6px;
   }
+
+  .career .page-section-text {
+    padding-bottom: 0px;
+  }
 }
