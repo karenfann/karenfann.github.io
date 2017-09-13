@@ -211,4 +211,16 @@ footer {
     margin-right: 15px;
     width: 40px;
   }
+
+  .close-button {
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+  }
+
+  .close-button:hover {
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+  }
 }
