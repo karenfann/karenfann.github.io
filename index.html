@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Karen Fann</title>
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:wght@400;500;600;700&display=swap" rel="stylesheet"/>
     <style>
         body {
             margin: 0;
@@ -14,33 +14,53 @@
             color: #333;
         }
 
-        .container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        .info {
+            display: table;
+            position: relative;
             height: 100vh;
+            margin: 0 auto;
+            max-width: 700px;
+            padding: 0;
         }
 
-        .container h1 {
+        .nav {
+            display: block;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            z-index: 2;
+            margin: 50px 0;
+            font-weight: 500;
+        }
+
+        header {
+            top: 0;
+        }
+
+        .content {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
             margin: 0;
+            line-height: 40px;
         }
 
-        a {
-            text-decoration: none;
-            color: inherit;
+        ::selection {
+            color: peru;
         }
 
-        a:hover {
-            text-decoration: underline;
+        footer {
+            bottom: 0;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div>
-            <h1>work in progress...</h1>
-            <a href="./views/v3"><p>view old website</p></a>
+    <section class="info">
+        <header class="nav">Karen Fann</header>
+        <footer class="nav">kfann285@gmail.com</footer>
+        <div class="content">
+            <h1>Recent Computer Science graduate at the University of California, Los Angeles. Currently interested in eco-friendly web design.</h1>
         </div>
-    </div>
+    </section>
 </body>
 </html>
